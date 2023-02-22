@@ -7,6 +7,11 @@ password = details.password
 
 
 def test_login_leetcode(page):
+    iphone_11 = page.devices["iphone 12"]
+    browser = page.firefox.launch(headedless=False)
+    context = browser.new_context(
+        **iphone_12,
+    )
     page.goto("https://www.google.com/")
     page.get_by_title("search").fill("leetcode")
     page.keyboard.press('Enter')

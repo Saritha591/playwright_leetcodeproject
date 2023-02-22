@@ -7,7 +7,7 @@ password = details.password
 
 
 
-def test_weeklycontest332(page):
+def test_discuss(page):
     page.goto("https://www.google.com/")
     page.get_by_title("search").fill("leetcode")
     page.keyboard.press('Enter')
