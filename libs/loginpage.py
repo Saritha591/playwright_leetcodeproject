@@ -15,5 +15,5 @@ def login_leetcode(page):
     page.locator("//span[normalize-space()='Sign in']").click()
     page.get_by_role("textbox", name='Username or E-mail').fill(username)
     page.get_by_role("textbox", name='Password').fill(password)
-    page.locator("//button[@id='signin_btn']").click()
+    page.locator("//span[@class='btn-content__2V4r']").click()
 
