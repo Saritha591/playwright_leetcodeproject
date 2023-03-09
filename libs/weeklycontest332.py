@@ -1,5 +1,4 @@
-from data import config
-from playwright.sync_api import sync_playwright, Page
+#from playwright.sync_api import sync_playwright, Page
 from data import config
 
 username = config.username
