@@ -8,11 +8,3 @@ def page():
         browser = p.chromium.launch(headless=False)
         page = browser.new_page()
         yield page
-
-# @pytest.fixture(scope="session")
-# def browser_context_args(browser_context_args, playwright):
-#     iphone_11 = playwright.devices['iPhone 11 Pro']
-#     return {
-#         **browser_context_args,
-#         **iphone_11,
-#     }
