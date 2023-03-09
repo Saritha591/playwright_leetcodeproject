@@ -1,8 +1,8 @@
 
-from data import details
+from data import config
 
-username = details.username
-password = details.password
+username = config.username
+password = config.password
 
 
 def leetcodeexplore(page):

@@ -1,9 +1,9 @@
-from data import details
+from data import config
 from playwright.sync_api import sync_playwright, Page
-from data import details
+from data import config
 
-username = details.username
-password = details.password
+username = config.username
+password = config.password
 
 
 def weeklycontest332(page):
