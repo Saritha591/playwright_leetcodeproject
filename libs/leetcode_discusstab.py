@@ -4,7 +4,7 @@ username = details.username
 password = details.password
 
 
-def leetcode_discusstab(page):
+def leetcodediscusstab(page):
     page.goto("https://www.google.com/")
     page.get_by_title("search").fill("leetcode")
     page.keyboard.press('Enter')
